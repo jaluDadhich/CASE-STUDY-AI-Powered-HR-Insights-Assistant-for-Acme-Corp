@@ -5,7 +5,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 print(f"*********Printing the current word {os.getcwd()}")  # Debugging line to check current working directory
 # Ensure the app directory is in the Python path
 from eda.utils import load_insights
-# from chatbot.rag_pipeline import get_hr_answer
+from chatbot.rag_pipeline import get_hr_answer
 
 # Set page config
 st.set_page_config(
@@ -48,8 +48,8 @@ with tabs[1]:
     if user_question:
         with st.spinner("Generating response..."):
             try:
-                # response = get_hr_answer(user_question)
-                response = "we will use the get_hr_answer function to generate a response based on the user question"
+                response = get_hr_answer(user_question)
+                # response = "we will use the get_hr_answer function to generate a response based on the user question"
                 st.success("Response:")
                 st.markdown(response)
             except Exception as e:

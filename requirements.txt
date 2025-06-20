@@ -1,0 +1,27 @@
+# --- Web UI ---
+streamlit
+
+# --- LangChain core & community integrations ---
+langchain
+langchain-community
+
+# --- Hugging Face LLMs, Embeddings ---
+sentence-transformers
+openai
+
+
+
+
+
+# --- Vector Store ---
+tiktoken
+
+# --- Environment Variables ---
+python-dotenv
+
+# --- EDA Support (Optional but useful for dashboards) ---
+matplotlib
+seaborn
+pandas
+numpy
+tqdm
