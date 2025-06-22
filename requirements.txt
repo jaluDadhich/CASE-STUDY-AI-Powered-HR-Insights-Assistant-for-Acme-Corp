@@ -4,6 +4,7 @@ streamlit
 # --- LangChain core & community integrations ---
 langchain
 langchain-community
+faiss-cpu
 
 # --- Hugging Face LLMs, Embeddings ---
 sentence-transformers

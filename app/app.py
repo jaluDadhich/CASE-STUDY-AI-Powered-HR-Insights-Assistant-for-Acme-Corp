@@ -28,11 +28,12 @@ with tabs[0]:
     # Load insights (assumes figures are pre-generated and stored as images or returned by a function)
     insights = load_insights()  # returns a list of (title, description, matplotlib fig or image)
 
-    for title, desc, fig in insights:
+    for title, desc, fig, resolution in insights:
         with st.container():
             st.subheader(title)
             st.markdown(desc)
             st.pyplot(fig)
+            st.markdown(resolution)
             st.markdown("---")
 
 # --- TAB 2: Ask HR Assistant ---
