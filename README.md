@@ -10,5 +10,7 @@ This repository is intended to share the code that I developed as part of Case s
 5) Senior Associate_People and ORG_CASE STUDY - Case Study file
 
 ### Steps to run the porject locally.
-1) pip install -r 'requirements.txt'
-2) streamlit run app/app.py
+1) Put the open ai key in environment file.
+2) pip install -r 'requirements.txt'
+3) streamlit run app/app.py
+
