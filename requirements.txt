@@ -20,9 +20,10 @@ tiktoken
 # --- Environment Variables ---
 python-dotenv
 
-# --- EDA Support (Optional but useful for dashboards) ---
+# --- Python version . 3.7 EDA Support (Optional but useful for dashboards) ---
 matplotlib
 seaborn
 pandas
 numpy
 tqdm
+
